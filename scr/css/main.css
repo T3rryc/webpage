@@ -1,19 +1,37 @@
 *{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 body{
     background-color: #fafafa;
+    background-image: url("../images/ttyd.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 nav{
+    text-align: center;
     width: 100%;
     height: 50px;
     
 }
+header nav ul, header nav li{
+    display: inline-block;
+    text-decoration: none;
+}
+header nav li{
+    margin: 5px 10px;
+}
 #guill{
     text-align: center;
+    
 
 }
-#guill img{
+#ttyd{
+    width: 100%;
+    opacity: 0.6;
+}
+#guill div img{
     margin: 10px;
     width: 200px;
 }
